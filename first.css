@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* first css*/
+#header {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    height: 90px;
+    top: 0px;
+    align-items: center;
+    width: 100%;
+    background-color:white;
+    background-attachment: fixed;
+    color: #000;
+}
+#header > img {
+    width: auto;
+    height: 80px;  
+}
+#nav-bar{
+     background-color: white;
+}
+ #header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header li {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    flex-grow: 1;
+    padding: 5px;
+}
+#header a {
+    text-decoration: none;
+    color: #000;
+}
+#banner {
+    position: static;
+    /*top: 100px;*/
+    height: 45rem;
+    background-image:url(images/image5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner-words {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    align-items: center;
+    padding: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#banner-words > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px;
+}
+#banner-words > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px;
+}
+#banner-words > p {
+    font-size: 1.1rem;
+    margin: 20px;
+    background-color: rgba(245, 245, 245, 0.986);
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    color: #000;
+} 
+#button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.banner-button {
+    font-size: 1.4rem;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:maroon;
+    margin: 20px;
+    width: 250px;
+    color: white;
+}
+#main-body {
+    width: 100%;
+    position: static;
+    background-color: #f5f5f5c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    
+}
+#slider {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    padding: 6rem 20px;
+    border-radius: 2px; 
+    flex-wrap: wrap;   
+}
+.sub-section {
+    flex-basis: 45%;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    
+    
+}
+#slider img {
+    width: auto;
+    height: 100px;
+    border-radius: 100%;
+    margin-bottom: 3rem;
+}
+.comments {
+    align-self: center;
+}
+#slider h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 2.2rem;
+}
+#first-p {
+    font-size: 18px;
+}
+#second-p {
+    font-size: 22px;
+    color: gray;
+    margin-bottom: 2rem;
+}
+#slider button {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgba(1, 1, 29, 0.829);
+    border-radius: 5px;
+    color: #ffffff;
+}
+#tools-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 95%;
+    margin-top: 30px;
+}
+.tool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+    margin: 20px 10px 0px;
+    
+}
+#tools-section  img{
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    display: block;
+}
+#tools-section p {
+    margin: 30px 0px;
+}
+#tools-section button {
+    padding: 5px 10px;
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    font-size: 1rem;
+}
+footer {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5px;
+}
+footer h3 {
+    margin: 10px 0px;
+}
+footer p {
+    margin: 10px 0px;
+}
